@@ -15,11 +15,11 @@
 
 // COMMAND ----------
 
-val AccessKey = "AKIAJHYM7LPX6OZFEYQA"
-val SecretKey = "/lGuRQrhVj43Yg9iRbBABPZyHNFbF4Ip8lvDaBmo"
+val AccessKey = "<S3 access key here>"
+val SecretKey = "<S3 secret key here>"
 val EncodedSecretKey = SecretKey.replace("/", "%2F")
-val AwsBucketName = "bdug"
-val MountName = "s3"
+val AwsBucketName = "<S3 bucket name here>"
+val MountName = "<any unique mount name>"
 
 // COMMAND ----------
 
